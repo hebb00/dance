@@ -1,0 +1,26 @@
+
+
+.btn {
+    width: 211px;
+    height: 49px;
+    background: linear-gradient(91.66deg, #D3297B 10.32%, #479ED6 85.75%);
+    border-radius: 14px;
+}
+
+
+.txt {
+    position: absolute;
+    width: 211px;
+    height: 49px;
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 699;
+    font-size: 23px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F4F5F8;
+
+}
+
