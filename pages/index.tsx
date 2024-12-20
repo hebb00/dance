@@ -2,22 +2,20 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Nav from '../components/Nav';
 import HeroSection from '../components/HeroSection';
-import Btn from  '../components/Btn'
+
 export default function Home() {
   return (
     <div>
       <Head>
-        <Nav/>
+        <Nav />
       </Head>
 
       <main>
-        <HeroSection/>
-         
-
+        <HeroSection />
       </main>
 
       <footer>
- 
+
       </footer>
 
 
