@@ -1,0 +1,67 @@
+.servicesSection {
+  background-color: #1a1a1a;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.servicesContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.serviceCard {
+  position: relative;
+  clip-path: ellipse(50% 100% at 50% 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.large {
+  width: 200px;
+  height: 400px;
+}
+
+.medium {
+  width: 160px;
+  height: 320px;
+}
+
+.small {
+  width: 120px;
+  height: 240px;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.serviceTitle {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: bold;
+}
