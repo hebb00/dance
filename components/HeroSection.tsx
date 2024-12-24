@@ -20,7 +20,7 @@ const HeroSection = () => {
                 transition: { duration: 0.7 },
             }}
         >
-             Book Now!
+             Book Now
         </motion.button>
       </div>
       <Image
