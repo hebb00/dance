@@ -1,0 +1,51 @@
+.footer {
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+     color: #007bff; /* Slightly darker hover color */
+ }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #000;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Slightly darker hover color */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 1px;
+  }
+  
