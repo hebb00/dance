@@ -1,6 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/HeroSection.module.css";
-import {motion} from "framer-motion"
+import styles from "../styles/Hero.module.css";
 import Btn from "./Btn";
 
 const HeroSection = () => {
@@ -13,7 +12,7 @@ const HeroSection = () => {
         <Btn text={'Book Now'}/>
       </div>
       <Image
-        src="/assets/hero.png" // Replace with the actual path to your image
+        src="/assets/hero.png"
         alt="International Shows"
         layout="fill"
         objectFit="cover"
