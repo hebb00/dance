@@ -1,0 +1,52 @@
+.ourWorkSection {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.carousel {
+  width: 60%;
+  margin: 30px;
+
+}
+
+.slide {
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+   max-height: 400px;
+}
+
+.slide :active {
+  opacity: 1;
+  transform: scale(1.1); /* Slight zoom for active slide */
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+  opacity: 0.6; /* Dimmed effect for adjacent slides */
+  transform: scale(0.9); /* Slightly smaller for adjacent slides */
+}
+
